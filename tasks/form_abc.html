@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дополнительное задание C</title>
+</head>
+
+<body>
+
+<p><b><i>Определить, каким числом является n. Отправить полученные данные на сервер</i></b></p>
+
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+
+    <input name="q" type="hidden" value="search">
+    <input name="formulation" type="hidden" value="">
+
+    <p>Значение n: <input id="n" name="n" type="number" value=0></p>
+    <p>Результат решения: <input name="result" value="не определен"></p>
+    <p><input id="verify" type="button" value="Определить"> <span><input id="send" type="button"
+                                                                         value="Отправить"></span></p>
+    <p>Результат: <span id="result"></span></p>
+
+</form>
+
+<script src="../js/form_abc.js"></script>
+</body>
+</html>
